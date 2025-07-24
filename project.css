@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  top: 0;
+  margin-top: 65px;
+  /* z-index: 1000; */
+}
+.logo img{
+  float: left;
+  /* margin:  40px; */
+  cursor: pointer;
+  margin-left: 10px;
+  height: 60px;
+  margin-right: 70px;
+}
+nav {
+  display: flex;
+  padding: 2px 5%;
+  margin-left: 140px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  /* margin: 0 10px; */
+}
+.nav-links li a{
+  text-decoration: none;
+   color: #000;
+   padding: 10px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+   /* margin-left: 10px; */
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.wix {
+  /* margin-right: 50px;
+  margin-left: 50px; */
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  height: 65px;
+  padding-top: 0px;
+  z-index: 2500;
+  top: 0;
+  border-bottom: 0.5px solid rgb(232, 227, 227);
+}
+.wix img{
+  margin-top: 17px;
+  margin-left: 30px;
+  height: 35px;
+  width: 180px;
+  /* font-size: 20px; */
+/* margin-bottom: 2px; */
+}
+.wix button{
+/* float: left; */
+background-color: rgb(41, 41, 248);
+border: none;
+color: #fff;
+border-radius: 30px;
+padding: 10px 25px;
+margin-left: 790px;
+margin-top: 12px;
+font-size: 17px;
+margin-bottom: 15px;
+/* margin-right: -5px; */
+}
+.main {
+  background-image: url(images/pro-1.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.main h3 ,h1{
+  color: white;
+  margin-left: 70px;
+  padding: 10px;
+}
+.main h3{
+  font-weight: lighter;
+  font-family: monospace;
+  padding-bottom: 10px;
+   padding-top: 300px;
+  font-size: 17px;
+}
+.main h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 65px;
+  letter-spacing: -0.1cap;
+}
+.main-2 .p-1 {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.main-2 .p-2 {
+  display: flex;
+  gap: 20px;;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.main-2 .p1{
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(images/pro-2.png);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+   height: 270px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.main-2 .p1:hover {
+transform: scale(0.99);
+}
+.main-2 .p2{
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(images/pro-3.png);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  height: 270px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.main-2 .p2:hover {
+transform: scale(0.99);
+}
+.main-2 .p3{
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(images/pro-4.png);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  height: 270px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.main-2 .p3:hover {
+transform: scale(0.99);
+}
+.main-2 .p4{
+ background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(images/pro-5.png);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  height: 270px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.main-2 .p4:hover {
+transform: scale(0.99);
+}
+.main-2 .p5{
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(images/pro-6.png);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ height: 270px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.main-2 .p5:hover {
+transform: scale(0.99);
+}
+.main-2 .p6{
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(images/pro-7.png);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  height: 270px;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+.main-2 .p6:hover:hover {
+transform: scale(0.99);
+}
+.main-2 p{
+  color: #fff;
+  padding-top: 220px;
+  font-family: monospace;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.button  {
+ background-color: rgb(219, 247, 7);
+ /* margin-right: 50px; */
+ 
+ padding: 10px 30px;
+ text-align: center;
+ cursor: pointer;
+margin-left: 20px;
+border: 2px solid transparent;
+transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid black;
+  transition: all 0.1s ease; /* Faster transition on hover */
+}
+.yellow {
+  background-color: rgb(219, 247, 7);
+  height: 200px;
+}
+.yellow h3{
+  text-align: center;
+  padding-top: 40px;
+  color: #000;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -0.01cap;
+  font-weight: normal;
+}
+.yellow button {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 530px;
+  padding: 10px 20px;
+  background-color: #000;
+}
+.yellow a{
+  text-decoration: none;
+  color: rgb(219, 247, 7);
+  padding: 20px 20px;
+}
+.yellow a:hover{
+  color: #000;
+}
+.yellow button:hover{
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+footer{
+   background-color: #f5f5f5;
+   height: 370px;
+}
+.footer {
+  display: flex;
+  gap: 150px;
+  /* margin-top: 70px; */
+  margin-bottom: 30px;
+   background-color: #f5f5f5;
+}
+.footer a{
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+.footer li{
+  list-style: none;
+  padding-bottom: 15px;
+}
+.footer p{
+  font-size: 20px;
+  font-family: monospace;
+  padding-bottom: 20px;
+}
+.footer img{
+  margin-left: 60px;
+  width: 160px;
+  height: 170px;
+  margin-top: 50px;
+}
+.footer .head{
+  margin-top: 70px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .nav{
+  margin-top: 70px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .follow{
+  margin-top: 70px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer hr {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.last{
+  display: inline-flex;
+  margin-left: 50px;
+  gap: 290px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.last-1{
+  display: inline-flex;
+}
+.last-1 p{
+padding-right: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.last-2 p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.la {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+.la a{
+  color: #000;
+}
+.wix button:hover{
+  margin-left:780px ;
+  padding-right: 40px;
+}
