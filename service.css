@@ -7,18 +7,15 @@ header {
   width: 100%;
   height: 65px;
   background-color: #fff;
-  /* position: fixed; */
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 80px;
   top: 0;
   margin-top: 65px;
-  /* z-index: 1000; */
 }
 .logo img{
   float: left;
-  /* margin:  40px; */
   cursor: pointer;
   margin-left: 10px;
   height: 60px;
@@ -32,7 +29,6 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  /* margin: 0 10px; */
 }
 .nav-links li a{
   text-decoration: none;
@@ -40,7 +36,6 @@ nav ul li {
    padding: 10px;
    cursor: pointer;
    font-family: Arial, Helvetica, sans-serif;
-   /* margin-left: 10px; */
 }
 .nav-links li a:hover {
   text-decoration: underline;
@@ -48,8 +43,6 @@ nav ul li {
 }
 .button  {
  background-color: rgb(219, 247, 7);
- /* margin-right: 50px; */
- 
  padding: 10px 30px;
  text-align: center;
  cursor: pointer;
@@ -61,11 +54,9 @@ transition: all 0.3s ease;
   background-color: #000;
   color: #fff;
   border: 2px solid black;
-  transition: all 0.1s ease; /* Faster transition on hover */
+  transition: all 0.1s ease; 
 }
 .wix {
-  /* margin-right: 50px;
-  margin-left: 50px; */
   display: flex;
   position: fixed;
   width: 100%;
@@ -80,11 +71,8 @@ transition: all 0.3s ease;
   margin-left: 30px;
   height: 35px;
   width: 180px;
-  /* font-size: 20px; */
-/* margin-bottom: 2px; */
 }
 .wix button{
-/* float: left; */
 background-color: rgb(41, 41, 248);
 border: none;
 color: #fff;
@@ -94,20 +82,17 @@ margin-left: 790px;
 margin-top: 12px;
 font-size: 17px;
 margin-bottom: 15px;
-/* margin-right: -5px; */
 }
 .main {
   display: inline-flex;
   margin-left: 50px;
   gap: 50px;
   margin-top: 35px;
-  
 }
 .main img{
   height: 650px;
   width:500px ;
   margin-bottom: 70px;
- 
 }
 .main .ser h3{
 font-family: monospace;
@@ -125,13 +110,10 @@ padding-bottom: 20px;
 .main .ser  p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
-  /* padding: 5px; */
-  /* margin-right: 30px; */
   width: 530px;
    display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 90px; */
   cursor: pointer;
 }
 .main .ser hr{
@@ -139,12 +121,7 @@ padding-bottom: 20px;
 }
 .main .ser  p:hover {
   background-color: rgb(219, 247, 7);
-  /* margin-right: 50px; */
 }
-/* .ser  i{
-  margin-right: 30px;
-  display: inline-flexbox;
-} */
 .yellow {
   background-color: rgb(219, 247, 7);
   height: 200px;
@@ -187,7 +164,6 @@ footer{
 .footer {
   display: flex;
   gap: 150px;
-  /* margin-top: 70px; */
   margin-bottom: 30px;
    background-color: #f5f5f5;
 }

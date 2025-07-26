@@ -17,7 +17,6 @@ header {
 }
 .logo img{
   float: left;
-  /* margin:  40px; */
   cursor: pointer;
   margin-left: 10px;
   height: 60px;
@@ -31,19 +30,13 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  /* margin: 0 10px; */
- 
 }
-/* .nav-links {
-  margin-left: 100px;
-} */
 .nav-links li a{
   text-decoration: none;
    color: #000;
    padding: 10px;
    cursor: pointer;
    font-family: Arial, Helvetica, sans-serif;
-   /* margin-left: 10px; */
 }
 .nav-links li a:hover {
   text-decoration: underline;
@@ -51,7 +44,6 @@ nav ul li {
 }
 .button  {
  background-color: rgb(219, 247, 7);
- /* margin-right: 50px; */
  padding: 10px 30px;
  text-align: center;
  cursor: pointer;
@@ -63,11 +55,9 @@ transition: all 0.3s ease;
   background-color: #000;
   color: #fff;
   border: 2px solid black;
-  transition: all 0.1s ease; /* Faster transition on hover */
+  transition: all 0.1s ease;
 }
 .wix {
-  /* margin-right: 50px;
-  margin-left: 50px; */
   display: flex;
   position: fixed;
   width: 100%;
@@ -83,11 +73,8 @@ transition: all 0.3s ease;
   margin-left: 30px;
   height: 35px;
   width: 180px;
-  /* font-size: 20px; */
-/* margin-bottom: 2px; */
 }
 .wix button{
-/* float: left; */
 background-color: rgb(41, 41, 248);
 border: none;
 color: #fff;
@@ -98,7 +85,6 @@ margin-top: 12px;
 font-size: 17px;
 margin-bottom: 15px;
 cursor: pointer;
-/* margin-right: -5px; */
 }
 .wix button:hover{
   margin-left:780px ;
@@ -106,29 +92,23 @@ cursor: pointer;
 }
 .main {
   color: #fff;
-  /* background-image: url(images/GettyImages-1345384816.avif); */
-  
-  /* margin-bottom: 50px; */
   height: 450px;
   margin-top: 65px;
   padding-top: 65px;
   font-family: Arial, Helvetica, sans-serif;
-   background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(images/GettyImages-1345384816.avif);
   background-position: center;
-background-size: cover;
+ background-size: cover;
 background-repeat: no-repeat;
 width: 100%;
- /* filter: brightness(70%) contrast(110%); */
- letter-spacing: 0;
+letter-spacing: 0;
 }
 .main .clip {
   background-color:rgb(219, 247, 7);
   color: rgb(219, 247, 7);
    clip-path: polygon(0% 0%, 63% 0, 100% 50%, 65% 100%, 0% 100%);
    margin-right: 0px;
-   /* margin-bottom: 50px; */
    margin-top: 40px;
    width: 120px;
    height: 115px;
@@ -166,17 +146,13 @@ width: 100%;
   font-size: 75px;
  font-weight: lighter;
  margin-left: 50px;
- 
- /* margin-bottom: 10px; */
 letter-spacing: 1.5;
 }
 .main h3 {
-  /* padding: 30px; */
   font-weight: lighter;
   margin-left: 80px;
   line-height: 1.3;
   font-size: 25px;
-  /* margin-top: 10px; */
 }
 .main .view {
    padding-top: 40px;
@@ -192,7 +168,6 @@ transform: scale(1.1);
   background-color: rgb(219, 247, 7);
   margin-left: 90px;
   padding: 10px;
- 
 }
 .main a {
   margin: 10px;
@@ -240,7 +215,6 @@ transform: scale(1.1);
 }
 .more{
   display: flex;
-  /* gap: 2px; */
 }
 .more img{
   width: 350px;
@@ -258,7 +232,6 @@ transform: scale(1.1);
   color: grey;
   margin-left: 2px;
   padding-top: 2px;
- 
 }
 .main-3 {
   background-image: url(images/home-5.avif);
@@ -269,25 +242,21 @@ transform: scale(1.1);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
-   
 }
 .main-3 h3, h1, .p3{
   margin-left: 50px;
   padding-top: 50px;
   color: #fff;
   font-weight: lighter;
-  
 }
 .main-3 h1{
   padding-top: 17px;
   font-size: 50px;
-  
 }
 .main-3 p{
   padding-top: 10px;
   line-height: 1.5;
   font-size: 20px;
- 
 }
 .main-3 i {
   color: #000;
@@ -295,7 +264,6 @@ transform: scale(1.1);
   background-color: rgb(219, 247, 7);
   margin-left: 50px;
   padding: 10px;
- 
 }
 .main-3 a {
   margin: 10px;
@@ -327,7 +295,6 @@ transform: scale(1.1);
 }
 .our{
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
   width: 200px;
   height: 100px;
@@ -382,12 +349,9 @@ transform: scale(1.1);
 .home-image img {
   height: 250px;
   width: 270px;
- 
-  /* margin-bottom: 50px; */
   margin-top: 70px;
 }
 .home-image figcaption{
-  /* margin-left: 5px; */
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 50px;
@@ -434,9 +398,8 @@ footer{
 .footer {
   display: flex;
   gap: 150px;
-  /* margin-top: 70px; */
   margin-bottom: 30px;
-   background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 .footer a{
   text-decoration: none;
@@ -501,6 +464,5 @@ font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 .la a{
-  /* text-decoration: underline; */
   color: #000;
 }

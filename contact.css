@@ -7,18 +7,15 @@ header {
   width: 100%;
   height: 65px;
   background-color: #fff;
-  /* position: fixed; */
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 80px;
   top: 0;
   margin-top: 65px;
-  /* z-index: 1000; */
 }
 .logo img{
   float: left;
-  /* margin:  40px; */
   cursor: pointer;
   margin-left: 10px;
   height: 60px;
@@ -32,7 +29,6 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  /* margin: 0 10px; */
 }
 .nav-links li a{
   text-decoration: none;
@@ -40,15 +36,12 @@ nav ul li {
    padding: 10px;
    cursor: pointer;
    font-family: Arial, Helvetica, sans-serif;
-   /* margin-left: 10px; */
 }
 .nav-links li a:hover {
   text-decoration: underline;
   color: #000;
 }
 .wix {
-  /* margin-right: 50px;
-  margin-left: 50px; */
   display: flex;
   position: fixed;
   width: 100%;
@@ -64,11 +57,8 @@ nav ul li {
   margin-left: 30px;
   height: 35px;
   width: 180px;
-  /* font-size: 20px; */
-/* margin-bottom: 2px; */
 }
 .wix button{
-/* float: left; */
 background-color: rgb(41, 41, 248);
 border: none;
 color: #fff;
@@ -78,14 +68,11 @@ margin-left: 790px;
 margin-top: 12px;
 font-size: 17px;
 margin-bottom: 15px;
-/* margin-right: -5px; */
 }
 .head-1 {
-  /* margin-top: 70px; */
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  /* padding: 20px; */
 }
 .head-1 p{
   font-family: monospace;
@@ -150,7 +137,6 @@ margin-bottom: 15px;
 label {
   display: block;
   margin-top: 40px;
-  /* padding: 20px; */
   font-family: monospace;
   font-size: 15px;
   padding-bottom: 10px;
@@ -160,7 +146,6 @@ input {
   border: none;
   width: 530px;
   height: 40px;
-  /* padding: 10px; */
 }
 textarea {
   background-color: #f5f5f5;
@@ -194,8 +179,6 @@ input:hover {
 }
 .button  {
  background-color: rgb(219, 247, 7);
- /* margin-right: 50px; */
- 
  padding: 10px 30px;
  text-align: center;
  cursor: pointer;
@@ -207,7 +190,7 @@ transition: all 0.3s ease;
   background-color: #000;
   color: #fff;
   border: 2px solid black;
-  transition: all 0.1s ease; /* Faster transition on hover */
+  transition: all 0.1s ease; 
 }
 .yellow {
   background-color: rgb(219, 247, 7);
@@ -251,7 +234,6 @@ footer{
 .footer {
   display: flex;
   gap: 150px;
-  /* margin-top: 70px; */
   margin-bottom: 30px;
    background-color: #f5f5f5;
 }
